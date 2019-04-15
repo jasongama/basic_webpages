@@ -5,7 +5,8 @@ body {
     font-family: fantasy;
     margin: 0px 0px 0px 0px;
     width: 100%;
-     background-color : lightseagreen;
+    background-image: url(" https://motionarray.imgix.net/preview-55302mVVbpNoSJ8_0007.jpg");
+
 }
 
 .header {
@@ -16,7 +17,7 @@ body {
 }
 
 .main {
-    background-color : lightseagreen;
+   
     width: 100%;
 }
 
@@ -32,6 +33,7 @@ body {
   .side-bar {
     float: left;
     width: 25%;
+    background-color : lightseagreen;
 }
 .menu li {
     list-style: none;
@@ -89,7 +91,8 @@ table, th, td {
         font-family: arial;
         margin: 0px 0px 0px 0px;
         width: 100%;
-        
+        background-image: url(" https://motionarray.imgix.net/preview-55302mVVbpNoSJ8_0007.jpg");
+
     }
     
     .header {
@@ -100,7 +103,7 @@ table, th, td {
     }
     
     .main {
-        background-color : lightseagreen;
+        
         width: 100%;
     
     }
@@ -117,6 +120,7 @@ table, th, td {
       .side-bar {
         float: left;
         width: 25%;
+        background-color : lightseagreen;
     }
     .menu li {
         list-style: none;
