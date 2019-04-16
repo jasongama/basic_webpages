@@ -2,10 +2,10 @@
 
 body {
     
-    font-family: fantasy;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px 0px 0px 0px;
     width: 100%;
-    background-image: url(" https://motionarray.imgix.net/preview-55302mVVbpNoSJ8_0007.jpg");
+    background-color: yellowgreen;
 
 }
 
@@ -45,13 +45,13 @@ body {
     list-style: none;
 }
 .menu a {
-    /* Ensure one can click anyware in the li for the link */
+    
     padding: 1em;
     display: block;
     width: 6em;
 }
 .menu a:hover {
-    /* Change the menu color to darker green when hovering over a link*/
+
     background-color : lightseagreen;
 }
 .content{
@@ -91,7 +91,7 @@ table, th, td {
         font-family: arial;
         margin: 0px 0px 0px 0px;
         width: 100%;
-        background-image: url(" https://motionarray.imgix.net/preview-55302mVVbpNoSJ8_0007.jpg");
+        background-image: url("https://png.pngtree.com/element_origin_min_pic/16/03/20/1656e91ade7b6d1.jpg");
 
     }
     
