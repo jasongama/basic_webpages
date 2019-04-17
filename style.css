@@ -26,16 +26,110 @@
     color: greenyellow;
     text-decoration: none;
 }
- .main {
-   
-    width: 100%;
-  }
-  .side-bar {
-    float: left;
-    width: 25%;
 
-  }
+  .sidenav {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 0px;
+    top: 16px;
+    margin-top: 136px;
 }
+ 
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .main {
+    margin-left: 160px;
+    padding: 0px 10px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.h2{
+  color: red;
+  text-align: center;
+}
+.content{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+.sunflower{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wayout{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+table, th, td {
+  border: 1px solid black;
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+}
+td[colspan="2"] {
+  text-align: center;
+}
+.history{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img1{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.District{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img2{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.George{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img3{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+ }
 
 
 
@@ -64,13 +158,93 @@ body, html {
     color: greenyellow;
     text-decoration: none;
 }
-.main {
-   
-    width: 100%;
+.sidenav {
+  height: 100%; 
+  width: 160px; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 0px;
+  top: 16px;
+  margin-top: 136px;
 }
-  
-  .side-bar {
-    float: left;
-    width: 25%;
 
-  }
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.h2{
+  color: red;
+  text-align: center;
+}
+.content{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+.sunflower{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wayout{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+table, th, td {
+  border: 1px solid black;
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+}
+td[colspan="2"] {
+  text-align: center;
+}
+.history{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img1{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.District{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img2{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
