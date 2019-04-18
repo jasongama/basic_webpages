@@ -101,11 +101,12 @@ td[colspan="2"] {
   width: 40em;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
 }
 .img1{
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  
 }
 .District{
   width: 40em;
@@ -113,7 +114,7 @@ td[colspan="2"] {
   margin-right: auto;
 }
 .img2{
-  margin-left: auto;
+  margin-left: auto;                                        
   margin-right: auto;
   display: block;
 }
@@ -127,7 +128,15 @@ td[colspan="2"] {
   margin-right: auto;
   display: block;
 }
-
+.footer {
+  background-color: greenyellow;
+  padding: 20px;
+  text-align: center;
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
 
  }
 
@@ -228,10 +237,11 @@ table, th, td {
 td[colspan="2"] {
   text-align: center;
 }
-.history{
+.flex-history{
   width: 40em;
   margin-left: auto;
   margin-right: auto;
+
 }
 .img1{
   margin-left: auto;
@@ -247,4 +257,13 @@ td[colspan="2"] {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+.footer {
+  background-color: lightgreen;
+  padding: 20px;
+  text-align: center;
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
 }
