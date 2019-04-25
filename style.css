@@ -3,9 +3,10 @@
     body, html {
     height: 100%;
     margin: 0px 0px 0px 0px;
+    width: 100%;
   }
   
-  .bg { 
+  body{ 
 
     background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     height: 100%; 
@@ -13,6 +14,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
  }
   
   .header {
@@ -67,7 +69,7 @@
   color: red;
   text-align: center;
 }
-.content{
+.contents{
   width: 40em;
   margin-left: auto;
   margin-right: auto;
@@ -97,37 +99,6 @@ table, th, td {
 td[colspan="2"] {
   text-align: center;
 }
-.history{
-  width: 40em;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-}
-.img1{
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-.District{
-  width: 40em;
-  margin-left: auto;
-  margin-right: auto;
-}
-.img2{
-  margin-left: auto;                                        
-  margin-right: auto;
-  display: block;
-}
-.George{
-  width: 40em;
-  margin-left: auto;
-  margin-right: auto;
-}
-.img3{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
 .footer {
   background-color: greenyellow;
   padding: 20px;
@@ -137,6 +108,42 @@ td[colspan="2"] {
   overflow: auto;
   zoom: 1;
 }
+.content p{
+
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: px;
+  margin-inline-end: 0px;
+}
+.img2 img{
+float: left;
+margin-right: 2%;
+}
+.District p{
+
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: px;
+  margin-inline-end: 0px;
+}
+.img3 img{
+  float: right;
+  margin-left: 2%;
+}
+.iziko  p{
+
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: px;
+  margin-inline-end: 0px;
+}
+.img4 img{
+  float: left;
+  margin-right: 2%;
+}
 
  }
 
@@ -145,16 +152,18 @@ td[colspan="2"] {
 body, html {
     height: 100%;
     margin: 0px 0px 0px 0px;
+    width: 100%;
   }
   
-  .bg { 
+  body{ 
 
     background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     height: 100%; 
     width: 100%;
-    background-position: center;
+    overflow-x: hidden;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
   .header {
     background-image: url("https://images.pexels.com/photos/544268/pexels-photo-544268.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
@@ -207,7 +216,7 @@ body, html {
   color: red;
   text-align: center;
 }
-.content{
+.contents{
   width: 40em;
   margin-left: auto;
   margin-right: auto;
@@ -237,33 +246,43 @@ table, th, td {
 td[colspan="2"] {
   text-align: center;
 }
-.flex-history{
-  width: 40em;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-.img1{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-.District{
-  width: 40em;
-  margin-left: auto;
-  margin-right: auto;
-}
-.img2{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-.footer {
-  background-color: lightgreen;
-  padding: 20px;
-  text-align: center;
-}
 .clearfix {
   overflow: auto;
   zoom: 1;
+}
+.content p{
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: px;
+    margin-inline-end: 0px;
+}
+.img2 img{
+  float: left;
+  margin-right: 2%;
+}
+.District p{
+
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: px;
+  margin-inline-end: 0px;
+}
+.img3 img{
+  float: right;
+  margin-left: 2%;
+}
+.iziko  p{
+
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: px;
+  margin-inline-end: 0px;
+}
+.img4 img{
+  float: left;
+  margin-right: 2%;
 }
