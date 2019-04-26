@@ -1,10 +1,6 @@
 @media(min-width:800px){
 
-    body, html {
-    height: 100%;
-    margin: 0px 0px 0px 0px;
-    width: 100%;
-  }
+  
   
   body{ 
 
@@ -29,64 +25,54 @@
     text-decoration: none;
 }
 
-  .sidenav {
-    height: 100%; 
-    width: 160px; 
-    position: fixed; 
-    z-index: 1; 
-    left: 0;
-    background-color: #111; 
-    overflow-x: hidden; 
-    padding-top: 0px;
-    top: 16px;
-    margin-top: 136px;
-}
- 
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  .main {
-    margin-left: 160px;
-    padding: 0px 10px;
-  }
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-  .menu {
-  list-style-type: none;
+
+*{
   margin: 0;
   padding: 0;
 }
-.h2{
-  color: red;
+#sidebar{
+  position: fixed;
+  width: 30%;
+  left: -30%;
+  height: 100%;
+  background-color: black;
+}
+#sidebar li{
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+  border-bottom: 1px solid grey;
   text-align: center;
 }
-.contents{
-  width: 40em;
-  margin-left: auto;
-  margin-right: auto;
-}
-.img{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+.toggle-btn{
+  position: absolute;
+  left: 105%;
+  top: 15px;
+
 
 }
+.toggle-btn span{
+  display: block;
+  background-color: black;
+  width: 30px;
+  height: 5px;
+  margin: 3px;
+}
+#sidebar.active{
+  left: 0;
+}
+
+.contents{
+  width: 95%;
+  margin: auto;
+}
 .sunflower{
-  width: 40em;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
 .wayout{
-  width: 40em;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -131,6 +117,7 @@ margin-right: 2%;
 .img3 img{
   float: right;
   margin-left: 2%;
+  margin-top: 23px;
 }
 .iziko  p{
 
@@ -143,18 +130,17 @@ margin-right: 2%;
 .img4 img{
   float: left;
   margin-right: 2%;
+  margin-top: 23px;
 }
+
+.change {
+  display: flex;
+}
+
 
  }
 
 
-
-body, html {
-    height: 100%;
-    margin: 0px 0px 0px 0px;
-    width: 100%;
-  }
-  
   body{ 
 
     background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -176,50 +162,47 @@ body, html {
     color: greenyellow;
     text-decoration: none;
 }
-.sidenav {
-  height: 100%; 
-  width: 160px; 
-  position: fixed; 
-  z-index: 1; 
-  left: 0;
-  background-color: #111; 
-  overflow-x: hidden; 
-  padding-top: 0px;
-  top: 16px;
-  margin-top: 136px;
-}
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-.main {
-  margin-left: 160px;
-  padding: 0px 10px;
-}
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-} 
-.menu {
-  list-style-type: none;
+*{
   margin: 0;
   padding: 0;
+}
+#sidebar{
+  position: fixed;
+  width: 30%;
+  left: -30%;
+  height: 100%;
+  background-color: black;
+}
+#sidebar li{
+  color: white;
+  font-size: 14px;
+  padding: 30px;
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+.toggle-btn{
+  position: absolute;
+  left: 105%;
+  top: 15px;
+}
+.toggle-btn span{
+  display: block;
+  background-color: black;
+  width: 30px;
+  height: 5px;
+  margin: 3px;
+}
+#sidebar.active{
+  left: 0;
 }
 .h2{
   color: red;
   text-align: center;
 }
 .contents{
-  width: 40em;
-  margin-left: auto;
-  margin-right: auto;
+  width: 95%;
+  margin: auto;
 }
 .img{
   margin-left: auto;
@@ -228,14 +211,12 @@ body, html {
 
 }
 .sunflower{
-  width: 40em;
-  margin-left: auto;
-  margin-right: auto;
+  width: 95%;;
+ margin: auto;
 }
 .wayout{
-  width: 40em;
-  margin-left: auto;
-  margin-right: auto;
+  width: 95%;;
+ margin: auto
 }
 table, th, td {
   border: 1px solid black;
@@ -250,6 +231,9 @@ td[colspan="2"] {
   overflow: auto;
   zoom: 1;
 }
+.change{
+  margin: 0 10px 40px 10px;
+}
 .content p{
 
     display: block;
@@ -263,7 +247,6 @@ td[colspan="2"] {
   margin-right: 2%;
 }
 .District p{
-
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -274,15 +257,4 @@ td[colspan="2"] {
   float: right;
   margin-left: 2%;
 }
-.iziko  p{
 
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: px;
-  margin-inline-end: 0px;
-}
-.img4 img{
-  float: left;
-  margin-right: 2%;
-}

@@ -2,38 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My first-webpages</title>
     <link href ="style.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript">
+    function togglemenu(){
+      document.getElementById("sidebar").classList.toggle("active");
+    }
+    
+    
+    
+    </script>
 </head>
 <body>
-        <div class="bg">
+        
         <div class="header" >
             <h1 class="h1">Jason Gama
             <img src="a.jpg" style="width:170px;">
                      </h1>
                      </div>
 
-                  <div class="main" >
-                    <div class="sidenav clearfix">
-                                <h2 class="h2" >Content</h2>
-                                
-                                <ul class="menu">
+                  <div id="sidebar" onclick="togglemenu()" >
+                    <div class="toggle-btn">
+                               <span></span>
+                               <span></span>
+                              <span></span> 
+                            </div> 
+                                <ul>
                                     <li><a href="#Which city?" >Which city?</a></li>
                                     <li><a href="#Why is Vienna a city to visit?" >Why is Vienna a city to visit?</a></li>
                                     <li><a href="#What foreign language do I want to learn?" >What foreign language do I want to learn?</a></li>
                                     <li><a href="#Historical places in CapeTown." >Historical places in CapeTown.</a></li>
                                 </ul>
                             
-                        </div> 
+                       
                     </div>
     
                     
                         <div class="contents clearfix" > 
                                 <div class ="img">
                                        
-                                <h2 id="Which city?">Which city?</h2>
+                                <h2 id="Which city?"style="margin-top: 23px;">Which city?</h2>
                             
                             <p>Vienna is famed for its coffee-house culture, world-renowned museums, and imperial palaces. According to Mercer, the city also has world-class standards when it comes to areas such as recreation and availability of consumer goods.</p>
                               <p>Vienna also does a good job of blending commercial development and history; it’s first district seamlessly weaves together buildings from the Habsburg empirical era, with modern shopping centres and office blocks.</p>
@@ -45,7 +57,7 @@
                             </div>    
                     
                             <div class="sunflower">
-                                <h2 id="Why is Vienna a city to visit?"> Why is Vienna a city to visit?</h2>
+                                <h2 id="Why is Vienna a city to visit?" style="margin-top: 23px;"> Why is Vienna a city to visit?</h2>
                                 <ol> 
                                         <li>Schönbrunn Zoo</li>
                                         <p>Deemed to be the world’s oldest zoo, Schönbrunn Zoo is one of the best places to go with the family. It’s packed with fascinating species and some of the animal kingdom’s top predators so it promises to be an education at the very least. Take your kids around Polar World, Rainforest House and along the Nature Trail to get them in touch with these furry creatures. If you call in advance you can try and schedule your visit to coincide with some shows and feeds to make it even more interactive.</p>
@@ -70,7 +82,7 @@
                         <div class = "wayout">
                             <div class ="td">
     
-                                <h2 id="What foreign language do I want to learn?">What foreign language do I want to learn?</h2>
+                                <h2 id="What foreign language do I want to learn?"style="margin-top: 23px;">What foreign language do I want to learn?</h2>
         
                                 <p> The Spanish language is spoken in many areas of the world due to the early influence of the Spanish Empire. It is a developed country with a high quality of life. The largest city and capital of Spain is Madrid. The second largest city is Barcelona, which is located in Catalonia.</p>
                                <p> Spanish Is in the Same Language Family as English. Spanish is part of the Indo-European family of languages, which are spoken by more than a third of the world's population. Other Indo-European languages include English, French, German, the Scandinavian languages, the Slavic languages and many of the languages of India </p>
@@ -117,30 +129,30 @@
                                       <p>Spanish is the Dominant Language in the Western Hemisphere. With 329 million native speakers who speak it as their first language, this Latin language is the third most widely spoken language in the world after Chinese (1.2 billion) and English (328 million). It's spreading rapidly compared to other languages.</p>
     
                         </div>
-                        <div class ="content clearfix">
-                         
-                        
-                                    <h2 id="Historical places in CapeTown.">Historical places in CapeTown.</h2>  
-                                    <ul  class ="good">
-                                            <li>CASTLE OF GOOD HOPE</li>
-                                            </ul>
-                                            <div class="img2">
-                                            <img src="/home/codex/Desktop/projects/basic_webpages/b.jpg"  width="220" height="137" >
-                                        
-                                            <p>Built by the <a href="https://en.wikipedia.org/wiki/Dutch_East_India_Company"> Dutch East India Company</a> between 1666 and 1679, the Castle is the oldest existing colonial building in South Africa. It replaced an older fort called <a href ="https://en.wikipedia.org/wiki/Fort_de_Goede_Hoop">the Fort de Goede Hoop</a> which was constructed from clay and timber and built by <a href="https://en.wikipedia.org/wiki/Jan_van_Riebeeck">Jan van Riebeeck</a> upon his arrival at <a href="https://en.wikipedia.org/wiki/Cape_of_Good_Hope">the Cape of Good Hope</a> in 1652.</p>
-                                          <p> Two <a href="https://en.wikipedia.org/wiki/Redoubt"> redoubts</a>, Redoubt Kyckuit (Lookout) and <a href="https://en.wikipedia.org/wiki/Redoubt_Duijnhoop">Redoubt Duijnhoop</a> (Duneheap) were built at the mouth of the <a href="https://en.wikipedia.org/wiki/Salt_River_(Western_Cape)">Salt River</a> in 1654.</p>
-                                          <p>The purpose of the Dutch settlement in the Cape was to act as a replenishment station for ships passing the treacherous coast around the Cape on long voyages between the Netherlands and<a href="https://en.wikipedia.org/wiki/Dutch_East_Indies"> the Dutch East Indies</a> </p>
+                           <h2 id="Historical places in CapeTown." style="margin-top: 23px;">Historical places in CapeTown.</h2>  
+                            <div class = "change">
+                                
+                           <div class ="column clearfix">
+                                 <div class="img3">
+                                            <img src="/home/codex/Desktop/projects/basic_webpages/b.jpg" style="width:170px">
+                                            <p><strong>CAPE TOWN CITY HALL</strong></p>
+                                            <img src ="/home/codex/Desktop/projects/basic_webpages/d.jpg"style="width:170px">
+                                          <p>Cape Town City Hall is a large Edwardian building in Cape Town city centre which was built in 1905. It is located on the Grand Parade to the west of the Castle and is built from honey-coloured oolitic limestone imported from Bath in England.</p>
+                                          <p>The building was designed as the result of a public competition, the winning architects being Messrs Harry Austin Reid and Frederick George Green, with the contractors being Messrs T. Howard and F. G. Scott. Much of the building material, including fixtures and fittings was imported from Europe.</p>
+                                          <p>The tower of the City Hall has a <a href="https://en.wikipedia.org/wiki/Turret_clock">Turret Clock</a> which strikes the hours and chimes the Westminster quarters. The faces of the clock are made from 4 skeleton iron dials filled with opal. The clock has a 24-hour wheel and lever. The bells were cast by <a href="https://en.wikipedia.org/wiki/John_Taylor_%26_Co"> Messrs John Taylor</a> and Co of Loughborough and the clock was supplied by <a href ="https://en.wikipedia.org/wiki/J._B._Joyce_%26_Co">JB Joyce & Co</a> of Whitchurch.</p>
+                                          <p>On February 11, 1990, only hours after his release from prison, <a href="https://en.wikipedia.org/wiki/Nelson_Mandela"> Nelson Mandela</a> made his first public speech after his release from the balcony of Cape Town City Hall.</p>
                                         </div>
                                         
                                     </div>
+                                    </div>
                               
-                                       <div class ="District clearfix">
+                                       <!--<div class ="District clearfix">
                                     
                                     <div class ="img3">
                                       <ul class="six">
-                                            <li>CAPE TOWN CITY HALL</li>
+                                            <li style="margin-top: 23px;"></li>
                                            </ul>
-                                           <img src ="/home/codex/Desktop/projects/basic_webpages/d.jpg" width="220" height="137">
+                                           <img src ="/home/codex/Desktop/projects/basic_webpages/d.jpg"style="width:170px">
                                           <p>Cape Town City Hall is a large Edwardian building in Cape Town city centre which was built in 1905. It is located on the Grand Parade to the west of the Castle and is built from honey-coloured oolitic limestone imported from Bath in England.</p>
                                           <p>The building was designed as the result of a public competition, the winning architects being Messrs Harry Austin Reid and Frederick George Green, with the contractors being Messrs T. Howard and F. G. Scott. Much of the building material, including fixtures and fittings was imported from Europe.</p>
                                           <p>The tower of the City Hall has a <a href="https://en.wikipedia.org/wiki/Turret_clock">Turret Clock</a> which strikes the hours and chimes the Westminster quarters. The faces of the clock are made from 4 skeleton iron dials filled with opal. The clock has a 24-hour wheel and lever. The bells were cast by <a href="https://en.wikipedia.org/wiki/John_Taylor_%26_Co"> Messrs John Taylor</a> and Co of Loughborough and the clock was supplied by <a href ="https://en.wikipedia.org/wiki/J._B._Joyce_%26_Co">JB Joyce & Co</a> of Whitchurch.</p>
@@ -151,18 +163,63 @@
                                        <div class="iziko clearfix">
                                       <div class="img4">
                                         <ul class="center">
-                                            <li>IZIKO MUSEUMS OF CAPE TOWN</li>
+                                            <li style="margin-top: 23px;">IZIKO MUSEUMS OF CAPE TOWN</li>
                                            </ul>
-                                           <img src="/home/codex/Desktop/projects/basic_webpages/c.jpg" width="220" height="137" >
+                                           <img src="/home/codex/Desktop/projects/basic_webpages/c.jpg" style="width:170px">
                                            <P>Iziko is an isiXhosa word meaning “hearth.” A hearth is the traditional centre of the home where families would get together to share their stories, just as Iziko is sharing the story of South Africa with both locals and visitors today.</P>
                                            <p>Iziko Museums of Cape Town is the official name given to the group of national museums located near the city centre, otherwise referred to as the city’s ‘Museum Mile.’ Visit the natural history collections at Iziko South African Museum and Iziko Planetarium, or explore history with a plethora of others.</p>
                                            <p>Cape Town’s premier art gallery, the Iziko South African National Gallery is met with the Iziko Michaelis Collection at the Old Town House in Greenmarket Square. The wide range of social history museums in the collection include highlights such as Iziko at the Castle of Good Hope, Iziko Groot Constantia, Iziko Slave Lodge, Iziko Maritime Centre, Iziko Social History Centre, Iziko Rust en Vreugd, Iziko Koopmans-De Wet, Iziko Bertram House and Iziko Bo-Kaap Museum.</p>
                                           </div>         
                                          </div> 
-                                
+                                        </div>-->
+
+
+<!--<div class="clearfix" style="width: 90%; margin: auto;">
+    <h2 id="Historical places in CapeTown." style="margin-top: 23px;">Historical places in CapeTown.</h2>
+  <div class = "change">
+        
+    <div class ="clearfix" style="margin: 0 10px 40px 10px;">         
+     
+            <div class="img2">
+            <img src="/home/codex/Desktop/projects/basic_webpages/b.jpg" style="width:170px">
+              <p><strong>CASTLE OF GOOD HOPE</strong></p>
+          <p>Built by the <a href="https://en.wikipedia.org/wiki/Dutch_East_India_Company"> Dutch East India Company</a> between 1666 and 1679, the Castle is the oldest existing colonial building in South Africa. It replaced an older fort called <a href ="https://en.wikipedia.org/wiki/Fort_de_Goede_Hoop">the Fort de Goede Hoop</a> which was constructed from clay and timber and built by <a href="https://en.wikipedia.org/wiki/Jan_van_Riebeeck">Jan van Riebeeck</a> upon his arrival at <a href="https://en.wikipedia.org/wiki/Cape_of_Good_Hope">the Cape of Good Hope</a> in 1652.</p>
+          <p> Two <a href="https://en.wikipedia.org/wiki/Redoubt"> redoubts</a>, Redoubt Kyckuit (Lookout) and <a href="https://en.wikipedia.org/wiki/Redoubt_Duijnhoop">Redoubt Duijnhoop</a> (Duneheap) were built at the mouth of the <a href="https://en.wikipedia.org/wiki/Salt_River_(Western_Cape)">Salt River</a> in 1654.</p>
+          <p>The purpose of the Dutch settlement in the Cape was to act as a replenishment station for ships passing the treacherous coast around the Cape on long voyages between the Netherlands and<a href="https://en.wikipedia.org/wiki/Dutch_East_Indies"> the Dutch East Indies</a> </p>
+        </div>
+        
+    </div>
+
+    <div class ="clearfix" style="margin: 0 10px 40px 10px;">         
+      
+              <div class="img2">
+              <img src="/home/codex/Desktop/projects/basic_webpages/b.jpg" style="width:170px">
+                <p><strong></strong></p>
+            <p>Built by the <a href="https://en.wikipedia.org/wiki/Dutch_East_India_Company"> Dutch East India Company</a> between 1666 and 1679, the Castle is the oldest existing colonial building in South Africa. It replaced an older fort called <a href ="https://en.wikipedia.org/wiki/Fort_de_Goede_Hoop">the Fort de Goede Hoop</a> which was constructed from clay and timber and built by <a href="https://en.wikipedia.org/wiki/Jan_van_Riebeeck">Jan van Riebeeck</a> upon his arrival at <a href="https://en.wikipedia.org/wiki/Cape_of_Good_Hope">the Cape of Good Hope</a> in 1652.</p>
+            <p> Two <a href="https://en.wikipedia.org/wiki/Redoubt"> redoubts</a>, Redoubt Kyckuit (Lookout) and <a href="https://en.wikipedia.org/wiki/Redoubt_Duijnhoop">Redoubt Duijnhoop</a> (Duneheap) were built at the mouth of the <a href="https://en.wikipedia.org/wiki/Salt_River_(Western_Cape)">Salt River</a> in 1654.</p>
+            <p>The purpose of the Dutch settlement in the Cape was to act as a replenishment station for ships passing the treacherous coast around the Cape on long voyages between the Netherlands and<a href="https://en.wikipedia.org/wiki/Dutch_East_Indies"> the Dutch East Indies</a> </p>
+          </div>
+          
+      </div>
+
+      <div class ="clearfix" style="margin: 0 10px 40px 10px;">         
+          <!-- <ul  class ="good">
+                <li style="  margin-top: 23px;">CASTLE OF GOOD HOPE</li>
+                </ul> -->
+                <!--<div class="img2">
+                <img src="/home/codex/Desktop/projects/basic_webpages/b.jpg" style="width:170px">
+                  <p><strong>CASTLE OF GOOD HOPE</strong></p>
+              <p>Built by the <a href="https://en.wikipedia.org/wiki/Dutch_East_India_Company"> Dutch East India Company</a> between 1666 and 1679, the Castle is the oldest existing colonial building in South Africa. It replaced an older fort called <a href ="https://en.wikipedia.org/wiki/Fort_de_Goede_Hoop">the Fort de Goede Hoop</a> which was constructed from clay and timber and built by <a href="https://en.wikipedia.org/wiki/Jan_van_Riebeeck">Jan van Riebeeck</a> upon his arrival at <a href="https://en.wikipedia.org/wiki/Cape_of_Good_Hope">the Cape of Good Hope</a> in 1652.</p>
+              <p> Two <a href="https://en.wikipedia.org/wiki/Redoubt"> redoubts</a>, Redoubt Kyckuit (Lookout) and <a href="https://en.wikipedia.org/wiki/Redoubt_Duijnhoop">Redoubt Duijnhoop</a> (Duneheap) were built at the mouth of the <a href="https://en.wikipedia.org/wiki/Salt_River_(Western_Cape)">Salt River</a> in 1654.</p>
+              <p>The purpose of the Dutch settlement in the Cape was to act as a replenishment station for ships passing the treacherous coast around the Cape on long voyages between the Netherlands and<a href="https://en.wikipedia.org/wiki/Dutch_East_Indies"> the Dutch East Indies</a> </p>
+            </div>-->
+            
+        
+          
+              
 </div>
 </body>
-<div class="footer" clearfix >
+<div class="footer">
         <h4>@copyright 2019</h4>
     </div>
 </html>
