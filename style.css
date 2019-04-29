@@ -94,47 +94,35 @@ td[colspan="2"] {
   overflow: auto;
   zoom: 1;
 }
-.content p{
 
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: px;
-  margin-inline-end: 0px;
+
+.change{
+  
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+.column{
+background-color: white;
+margin: 10px;
 }
 .img2 img{
-float: left;
-margin-right: 2%;
+  margin: 10px;
 }
-.District p{
-
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: px;
-  margin-inline-end: 0px;
+.row{
+  background-color: white;
+  margin: 10px;
 }
 .img3 img{
-  float: right;
-  margin-left: 2%;
-  margin-top: 23px;
+  margin: 10px;
 }
-.iziko  p{
-
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: px;
-  margin-inline-end: 0px;
+.time{
+  background-color: white;
+  margin: 10px;
 }
 .img4 img{
-  float: left;
-  margin-right: 2%;
-  margin-top: 23px;
-}
-
-.change {
-  display: flex;
+  margin: 10px;
 }
 
 
@@ -232,29 +220,29 @@ td[colspan="2"] {
   zoom: 1;
 }
 .change{
-  margin: 0 10px 40px 10px;
-}
-.content p{
 
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: px;
-    margin-inline-end: 0px;
+  display: flex;
+  
+}
+
+.column{
+background-color: white;
+margin: 10px;
 }
 .img2 img{
-  float: left;
-  margin-right: 2%;
+  margin: 10px;
 }
-.District p{
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: px;
-  margin-inline-end: 0px;
+.row{
+  background-color: white;
+  margin: 10px;
 }
 .img3 img{
-  float: right;
-  margin-left: 2%;
+  margin: 10px;
 }
-
+.time{
+  background-color: white;
+  margin: 10px;
+}
+.img4 img{
+  margin: 10px;
+}
