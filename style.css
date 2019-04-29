@@ -1,7 +1,4 @@
 @media(min-width:800px){
-
-  
-  
   body{ 
 
     background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -97,34 +94,27 @@ td[colspan="2"] {
 
 
 .change{
+  max-width: 1400px;
+  margin: 40px auto 0 auto;
   
-  display: flex;
-  flex-flow: row wrap;
-
 }
 
 .column{
-background-color: white;
-margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  flex-basis: 30%;
 }
-.img2 img{
-  margin: 10px;
+.column img{
+  float: left;
+  margin-right: 5%;
 }
-.row{
-  background-color: white;
-  margin: 10px;
+@media(min-width:900px){
+  .change{
+  display: flex;
+  justify-content: space-between;
+  }
 }
-.img3 img{
-  margin: 10px;
-}
-.time{
-  background-color: white;
-  margin: 10px;
-}
-.img4 img{
-  margin: 10px;
-}
-
 
  }
 
@@ -219,30 +209,27 @@ td[colspan="2"] {
   overflow: auto;
   zoom: 1;
 }
-.change{
 
-  display: flex;
-  
+.change{
+  max-width: 1400px;
+  margin: 40px auto 0 auto;
+ 
 }
 
 .column{
-background-color: white;
-margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  flex-basis: 30%;
 }
-.img2 img{
-  margin: 10px;
+.column img{
+  float: left;
+  margin-right: 10%;
+
 }
-.row{
-  background-color: white;
-  margin: 10px;
-}
-.img3 img{
-  margin: 10px;
-}
-.time{
-  background-color: white;
-  margin: 10px;
-}
-.img4 img{
-  margin: 10px;
+@media(min-width:900px){
+  .change{
+  display: flex;
+  justify-content: space-between;
+  }
 }

@@ -1,4 +1,7 @@
-
+/**
+*** SIMPLE GRID
+*** (C) ZACH COLE 2016
+**/
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
 
@@ -21,40 +24,34 @@ body {
   font-family: 'Lato', Helvetica, sans-serif;
   color: #333447;
   line-height: 1.5;
-  font-style: italic;
 }
 
 /* TYPOGRAPHY */
 
-
+h1 {
+  font-size: 2.5rem;
+}
 
 h2 {
   font-size: 2rem;
-  line-height: 44px;
 }
 
-
+h3 {
+  font-size: 1.375rem;
+}
 
 h4 {
   font-size: 1.125rem;
-  line-height: 44px;
 }
 
-p {
-  font-size: 1.125rem;
-  font-weight: 200;
-  line-height: 1.8;
+h5 {
+  font-size: 1rem;
 }
-p {
-  font-size: 1.125rem;
-  font-weight: 200;
-  line-height: 1.8;
+
+h6 {
+  font-size: 0.875rem;
 }
-p {
-  font-size: 1.125rem;
-  font-weight: 200;
-  line-height: 1.8;
-}
+
 p {
   font-size: 1.125rem;
   font-weight: 200;
@@ -115,8 +112,15 @@ p {
 .col-1,
 .col-2,
 .col-3,
-.col-4
- {
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
   width: 96%;
 }
 
@@ -136,6 +140,37 @@ p {
   width: 29.33%;
 }
 
+.col-5-sm {
+  width: 37.66%;
+}
+
+.col-6-sm {
+  width: 46%;
+}
+
+.col-7-sm {
+  width: 54.33%;
+}
+
+.col-8-sm {
+  width: 62.66%;
+}
+
+.col-9-sm {
+  width: 71%;
+}
+
+.col-10-sm {
+  width: 79.33%;
+}
+
+.col-11-sm {
+  width: 87.66%;
+}
+
+.col-12-sm {
+  width: 96%;
+}
 
 .row::after {
 	content: "";
