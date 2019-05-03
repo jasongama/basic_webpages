@@ -84,7 +84,7 @@ td[colspan="2"] {
 }
 .footer {
   background-color: greenyellow;
-  padding: 20px;
+  padding: 14px;
   text-align: center;
 }
 .clearfix {
@@ -154,7 +154,7 @@ td[colspan="2"] {
 }
 #sidebar li{
   color: white;
-  font-size: 20px;
+  font-size: 14px;
   padding: 30px;
   border-bottom: 1px solid grey;
   text-align: center;
