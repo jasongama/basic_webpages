@@ -150,11 +150,11 @@ td[colspan="2"] {
   width: 30%;
   left: -30%;
   height: 100%;
-  background-color: black;
+  background-color: white;
 }
 #sidebar li{
   color: white;
-  font-size: 14px;
+  font-size: 20px;
   padding: 30px;
   border-bottom: 1px solid grey;
   text-align: center;
@@ -166,7 +166,7 @@ td[colspan="2"] {
 }
 .toggle-btn span{
   display: block;
-  background-color: black;
+  background-color: white;
   width: 30px;
   height: 5px;
   margin: 3px;
