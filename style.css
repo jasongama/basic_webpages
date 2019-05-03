@@ -224,7 +224,7 @@ td[colspan="2"] {
 }
 .column img{
   float: left;
-  margin-right: 10%;
+  margin-right: 5%;
 
 }
 @media(min-width:900px){
