@@ -17,7 +17,7 @@ body{
 .btn{
     background: var(--dark);
     color: var(--light);
-    padding: 0.6rem 1.3rem;
+    padding: 1.0rem 1.1rem;
     text-decoration: none;
     border: 0;
 
@@ -28,6 +28,7 @@ body{
 .container{
     display: grid;
     grid-gap: 20px;
+    
 }
 .main-nav ul {
     display: grid;
@@ -56,13 +57,13 @@ body{
     display: grid;
     grid-gap: 20px;
 }
-.showcase{
+#showcase .grid{
     background: url("https://images.pexels.com/photos/8614/painting-black-paint-roller.jpg?cs=srgb&dl=black-color-paint-8614.jpg&fm=jpg");
     background-size:cover;
     background-position: 3rem; 
     align-items: center;
 }
-.showcase h1{
+#showcase h1{
     font-size: 2.1rem;
     color:aliceblue;
 }
@@ -119,37 +120,57 @@ table, th, td {
      padding: 1rem;
 }
 @media(max-width: 700px){
+      
+body{
+    background: #ccc;
+    margin: 30px 50px;
+    line-height: 1.4;
+}
+.btn{
+    background: var(--dark);
+    color: var(--light);
+    padding: 1.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+
+}
     .top-container{
         display: grid;
         grid-gap: 20px;
     }
-    .showcase{
-        background: url("https://images.pexels.com/photos/8614/painting-black-paint-roller.jpg?cs=srgb&dl=black-color-paint-8614.jpg&fm=jpg");
-        background-size:cover;
-        background-position: 3rem; 
-        align-items: center;
+  
+#showcase .grid{
+    background: url("https://images.pexels.com/photos/8614/painting-black-paint-roller.jpg?cs=srgb&dl=black-color-paint-8614.jpg&fm=jpg");
+    background-size:cover;
+    background-position: 3rem; 
+    align-items: center;
+}
+#showcase h1{
+    font-size: 2.1rem;
+    color:aliceblue;
+    .main-nav ul{
+        grid-template-columns: 3fr;
     }
-    .showcase h1{
-        font-size: 2.1rem;
-        color:aliceblue;
+    .info{
+        grid-template-columns: 1fr;
+    }
+    .info x{
+        grid-template-columns: 1fr;
+    }
+    .info q{
+        grid-template-columns: 1fr;
+    }
+    .info .btn {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .footer{
+        margin: 2rem;
+        background: var(--dark);
+        color: var(--light);
+        text-align: center;
+         padding: 1rem;
     }
 
-.main-nav ul{
-    grid-template-columns: 1fr;
-}
-.info{
-    grid-template-columns: 1fr;
-}
-.info .btn {
-    display: block;
-    text-align: center;
-    margin: auto;
-}
-.footer{
-    margin: 2rem;
-    background: var(--dark);
-    color: var(--light);
-    text-align: center;
-     padding: 1rem;
-}
 }
